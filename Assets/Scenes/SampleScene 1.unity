@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ee198135162cc4e98f43690e750a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dPos: {x: 0, y: 0, z: -6}
+  dPos: {x: 4, y: 0, z: 0}
 --- !u!65 &215095200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1618,6 +1618,7 @@ GameObject:
   - component: {fileID: 1085741561}
   - component: {fileID: 1085741560}
   - component: {fileID: 1085741559}
+  - component: {fileID: 1085741563}
   m_Layer: 2
   m_Name: DoorTrigger
   m_TagString: Untagged
@@ -1696,11 +1697,25 @@ Transform:
   m_GameObject: {fileID: 1085741558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.51, y: 2.5, z: 12.74}
-  m_LocalScale: {x: 5, y: 3.1, z: 1.25}
+  m_LocalScale: {x: 5, y: 3.1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1085741563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085741558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a70af5aa9731444b84485e60220253f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - {fileID: 215095198}
 --- !u!1 &1199835434
 GameObject:
   m_ObjectHideFlags: 0
